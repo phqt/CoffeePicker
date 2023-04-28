@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coffee Tool</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<div class="quiz-container">
+		<h1>Coffee Tool UwU</h1>
+		<p>Answer the following questions to get a coffee recommendation based on your preferences:</p>
+		<form id="coffee-form">
+			<label for="cream">How much cream do you like in your coffee?</label><br>
+			<select id="cream" name="cream">
+				<option value="none">None</option>
+				<option value="light">A little</option>
+				<option value="moderate">Moderate</option>
+				<option value="heavy">Heavy</option>
+			</select><br><br>
+			<label for="milk">How much milk do you like in your coffee?</label><br>
+			<select id="milk" name="milk">
+				<option value="none">None</option>
+				<option value="light">A little</option>
+				<option value="moderate">Moderate</option>
+				<option value="heavy">Heavy</option>
+			</select><br><br>
+			<label for="espresso">How much espresso do you like in your coffee?</label><br>
+			<select id="espresso" name="espresso">
+				<option value="none">None</option>
+				<option value="single">Single shot</option>
+				<option value="double">Double shot</option>
+				<option value="triple">Triple shot</option>
+			</select><br><br>
+			<button type="submit" id="submit-button">Get recommendation</button>
+		</form>
+			<div id="result-container"></div>
+	</div>
+	<script src="answers.js"></script>
+</body>
+</html>

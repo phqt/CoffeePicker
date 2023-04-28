@@ -1,0 +1,32 @@
+.quiz-container {
+    margin: 0 auto;
+    width: 50%;
+    height: 100vh;
+    border: 4px solid black;
+    padding: 10px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+}
+
+label {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+button {
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+#result-container {
+    margin-top: 1%;
+    font-size: larger;
+    font-weight: bold;
+}
