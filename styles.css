@@ -1,32 +1,106 @@
+@font-face {
+    font-family: cute;
+    src: url('fonts/MotleyForcesRegular-w1rZ3.ttf');
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #5C3B1C;
+}
 .quiz-container {
     margin: 0 auto;
-    width: 50%;
     height: 100vh;
-    border: 4px solid black;
-    padding: 10px;
+    padding: none;
+    background-color: #5C3B1C;
+    border: 10px solid #A85202;
+    /* background-image: url('images/coffeegirl.jpeg'); */
+    color: #faead6;
+    /* color: #82b5fa; */
+    font-size: 30px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: cute;
+    position: relative;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+
+p{
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: 5%;
 }
 
 form {
-    display: inline-block;
-    text-align: center;
-    padding: 5%;
+    /* display: inline-block; */
+    /* margin-left: auto;
+    text-align: left;
+    justify-content: left; */
+    text-align: right;
+    justify-content: right;
+
 }
 
 label {
-    display: block;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    font-size: 22px;
+    position: relative;
+    right: -26%;
 }
 
 button {
-    margin-top: 20%;
-    margin-bottom: 10%;
+    display: block;
+    justify-content: center;
+    align-self: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: #A85202;
+    border: none;
+    color: antiquewhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: cute;
+    cursor: pointer;
+    font-size: 22px;
+    position: relative;
+    bottom: 70px;
+    border: 3px solid black;
 }
 
 #result-container {
-    margin-top: 1%;
+    /* margin-top: 8%; */
+    margin: 0 auto;
     font-size: larger;
     font-weight: bold;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    
 }
+
+select {
+    position: relative;
+    left: -27%;
+    bottom: 75px;
+    padding: 5px;
+    font-family: cute;
+    font-size: 16px;
+    appearance: none;
+    outline: 0;
+    background: #A85202;
+    background-image: none;
+    color: antiquewhite;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 3px;
+    scale: 150%;
+    text-align: center;
+}
+ 

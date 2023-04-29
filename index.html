@@ -9,11 +9,12 @@
 </head>
 <body>
 	<div class="quiz-container">
-		<h1>Coffee Tool UwU</h1>
+		<h1>Coffee Tool</h1>
 		<p>Answer the following questions to get a coffee recommendation based on your preferences:</p>
 		<form id="coffee-form">
 			<label for="cream">How much cream do you like in your coffee?</label><br>
-			<select id="cream" name="cream">
+			<div class="select">
+                <select id="cream" name="cream">
 				<option value="none">None</option>
 				<option value="light">A little</option>
 				<option value="moderate">Moderate</option>
@@ -33,6 +34,7 @@
 				<option value="double">Double shot</option>
 				<option value="triple">Triple shot</option>
 			</select><br><br>
+        </select>
 			<button type="submit" id="submit-button">Get recommendation</button>
 		</form>
 			<div id="result-container"></div>
