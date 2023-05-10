@@ -6,16 +6,17 @@
 *{
     margin: 0 auto;
     padding: 0;
+    
     /* background-color: #5C3B1C; */
     
 }
 .quiz-container {
     margin: 0 auto;
-    height: 100vh;
+    height: 1080px;
+    width: 1920px;
     padding: none;
     /* background-color: #5C3B1C; */
-    
-    background-image: url('images/coffeewavebggrey.png');
+    /* background-image: url('images/coffeewavebggrey.png'); */
     /* background: linear-gradient( #7A5B43, #7A461F); */
     /* border: 10px solid #A85202; */
     /* background-image: url('images/coffeegirl.jpeg'); */
@@ -108,3 +109,8 @@ select {
     text-align: center;
 }
  
+.bg{
+    background-image: url('images/coffeewavebggrey.png');
+    height: auto;
+    width: auto;
+}
